@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#main #lft{
+    background-color: burlywood;
+    height: 100vh;
+    width: 27.5%;
+}
+
+#lft #top{
+    position: relative;
+    padding: 30px;
+    height: 45%;
+    width: 100%;
+    background-image: linear-gradient(124deg, #f5be81 0%, #f5608f 100%);
+}
+
+#lft #top #imgs{
+    height: 25vh;
+    width: 25vh;
+    background-color: salmon;
+}
+
+#lft #top #imgs .patti{
+    display: flex;
+    height: 50%;
+    background-color: seagreen;
+}
+
+#imgs .patti .simg{
+    height: 100%;
+    width: 50%;
+    background-color: skyblue;
+    background-size: cover;
+    background-position: center;
+}
+
+#imgs .patti #m1{
+    background-image: url(https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+}
+
+#imgs .patti #m2{
+    background-image: url(https://images.unsplash.com/photo-1450297350677-623de575f31c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+}
+
+#imgs .patti #m3{
+    background-image: url(https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
+#imgs .patti #m4{
+    background-image: url(https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+}
+
+#lft #top #para1{
+    margin-top: 30px;
+}
+
+#para1 p{
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#lft #top .btn{
+    position: absolute;
+    top: 17%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-image: linear-gradient(124deg, #f5be81 0%, #ca295c 100%);
+    color: white;
+    border-radius: 50px;
+}
+
+#lft #top #btn2{
+    top: 45%;
+    right: 20%;
+}
+
+#lft #btm{
+    position: relative;
+    padding: 30px;
+    height: 55%;
+    width: 100%;
+    background-color:white;
+}
+
+#lft #btm #para2{
+    font-size: 15px;
+}
+
+#btm #para2 h4{
+    color: rgb(88, 141, 255);
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#para2 h4 span{
+    font-weight: 700;
+}
+
+#btm #para2 p b{
+    font-weight: 500;
+}
+
+#lft #btm #msg1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    padding: 10px;
+    height: 90px;
+    width: 60%;
+    font-size: 9px;
+    color: white;
+    background-color: rgb(88, 141, 255);
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+#lft #btm #msg2{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    padding: 10px;
+    height: 70px;
+    width: 60%;
+    font-size: 9px;
+    color: white;
+    background-color:  #e4507f;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+#lft #btm #pro1{
+    position: absolute;
+    top: 55%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#lft #btm #pro2{
+    position: absolute;
+    top: 80%;
+    left: 87%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#lft #btm #pro1gola{
+    position: absolute;
+    top: 51%;
+    left: 18%;
+}
+
+#lft #btm #pro1gola #g1{
+    height: 13px;
+    width: 13px;
+    border-radius: 50px;
+    background-color: rgb(88, 141, 255);
+}
+
+#lft #btm #pro1gola #g2{
+    position: absolute;
+    top: 90%;
+    left: -80%;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    background-color: rgb(88, 141, 255);
+}
+
+#lft #btm #pro2gola{
+    position: absolute;
+    top: 76%;
+    left: 80%;
+}
+
+#lft #btm #pro2gola #g1{
+    height: 13px;
+    width: 13px;
+    border-radius: 50px;
+    background-color: #e4507f;
+}
+
+#lft #btm #pro2gola #g2{
+    position: absolute;
+    top: 90%;
+    left: 120%;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    background-color: #e4507f;
+}
+
+#main #mid{
+    padding: 10px;
+    background-image: linear-gradient(180deg, #80d5e2 0%, #0b32d8 100%);
+    height: 100vh;
+    width: 27.5%;
+}
+
+#mid #p1{
+    border-top: 1px solid transparent;
+    position: relative;
+    margin-top: 20px;
+    height: 13%;
+    margin-left: 20px;
+}
+
+#mid #p1 img{
+     height: 60px;
+     border-radius: 10px;
+    /* background-image: url(https://images.unsplash.com/photo-1571716846252-df1324ce17bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80); */
+}
+
+#mid #p1 p{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+ #p1 #b1{
+    width: 50%;
+    height: 30px;
+    font-size: 10px;
+    color: white;
+    border-color: transparent;
+    background-color: #b2eff8;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0%;
+    box-shadow: 2px 6px 15px rgba(68, 68, 68, 0.253);
+}
+
+#main #mid #line{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+#main #mid #p2 {
+    position: relative;
+   height: 33%;
+   margin-top: 30px;
+   /* background-color: black; */
+}
+
+#mid #p2 p{
+    margin-left: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+#mid #p2 #imgdiv{
+    height: 78%;
+    margin-left: 20px;
+    width: 50%;
+    margin-top: 30px;
+    background-image: linear-gradient(180deg, #80d5e2 0%, #0b31d85b 100%);
+    border-top: .5px solid #80d5e2;
+}
+
+#p2 #imgdiv #img{
+    height: 80%;
+    width: 110%;
+    margin-top:  10% ;
+    margin-left: 10%;
+    background-image: url(https://images.unsplash.com/photo-1539716947714-3295e1074d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+#mid #p2 #playbtn{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+#p2 #playbtn i{
+    color: white;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+}
+
+#p2 #playbtn p{
+    font-size: 10px;
+}
+
+#main #mid #p3 {
+    height: 30%;
+    /* background-color: brown; */
+}
+
+#mid #p3 #img{
+    display: flex;
+    height: 50%;
+    margin-top: 30px;
+}
+
+#p3 #img1{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-image: url(https://images.unsplash.com/photo-1507457379470-08b800bebc67?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1818&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#p3 #img2{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-image: url(https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2072&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#mid #p3 p{
+    margin-left: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+#main #right{
+    background-color: yellow;
+    height: 100vh;
+    width: 45%;
+}
+
+#right #top{
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1516741247836-f66dfdfd1b22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80);
+    background-size: cover;
+}
+
+
+#right #top #overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(180deg, #80d5e200 0%, #000000d0 100%);
+}
+
+#right #top #overlay #menu{
+    height: 10%;
+    width: 5%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    background-color: #284ef7  ;
+    
+}
+
+#top #overlay #txt{
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+#overlay #txt h1{
+    font-weight: 300;
+    letter-spacing: 15px;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#txt p{
+    font-size: 15px;
+    margin-left: 20px;
+    letter-spacing: 10px;
+}
+
+#right #btm{
+    display: flex;
+    padding: 30px 20px;
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(124deg, #f58581 0%, #d81d58 100%);
+}
+
+#right #btm #rlft{
+    height: 100%;
+    width: 15%;
+}
+
+#btm #rlft #img{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px;
+    background-image: url(https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1799&q=80);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#right #btm #rright{
+    height: 100%;
+    width: 80%;
+    margin-left: 20px;
+    color: white;
+}
+
+#btm #rright #p1{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+#btm #rright #p2{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#btm #rright #p3{
+    margin-top: 20px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+#btm #rright button{
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: #f0a29f ;
+    color: #d81d58;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+@media(max-width:500px){
+    #main{
+        flex-direction: column;
+    }
+
+    #main #lft{
+        width: 100%;
+    }
+    #main #mid{
+        width: 100%;
+    }
+
+    #main #right{
+        width: 100%;
+    }
+
+    #right #top{
+        background-position: center;
+    }
+
+    #right #top #overlay #menu{
+        height: 5%;
+        width: 10%;
+        font-size: 15px;
+    }
+
+    #right #top #txt h1{
+        font-size: 20px;
+        letter-spacing: 9px;
+    }
+
+    #right #top #txt p{
+        font-size: 10px;
+        letter-spacing: 5px;
+    }
+
+    #btm #rlft #img{
+        height: 30%;
+    }
+
+    #btm #rright #p3{
+        font-size: 9px;
+        line-height: 15px;
+    }
+}
